@@ -1,10 +1,4 @@
 
 
-const currencyBoxes=document.querySelector('.one-box')
+const currencyBoxes=document.querySelectorAll('.left-boxes')
 
-// console.log(currencyBoxes)
-
-currencyBoxes.addEventListener('click',(item)=>{
-    console.log(item)
-    item.style.backgroundColor='red' ;
-})

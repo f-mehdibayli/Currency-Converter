@@ -47,13 +47,7 @@ h1{
     border-right: 0px;
     cursor: pointer;
 }
-.one-box{
-    border-radius: 3px 0px 0px 3px;
-}
-.for-box{
-    border: 1px solid #E5E5E5;
-    border-radius: 0px 3px 3px 0px;
-}
+
 .left-input{
     width: 259px;
     height: 102px;
@@ -95,6 +89,7 @@ h1{
     text-align: center;
     padding-top: 7px;
     border-right: 0px;
+    cursor: pointer;
 }
 .input-right-div{
     position: relative;
@@ -123,4 +118,11 @@ h1{
     position: absolute;
     bottom: 10px;
     left: 17px;
+}
+.one-box{
+    border-radius: 3px 0px 0px 3px;
+}
+.for-box{
+    border: 1px solid #E5E5E5;
+    border-radius: 0px 3px 3px 0px;
 }
