@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-left: 253px;
+    margin-bottom: 33px;
+}
+.currency{
+    display: flex;
+    gap: 123px;
+    margin-left: 253px;
+}
+.text-head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9F9F9F;
+    margin-bottom: 7px;
+}
+.entry-boxes{
+    display: flex;
+    margin-bottom: 20px;
+}
+.left-boxes{
+    width: 65.06px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    padding-top: 7px;
+    border-right: 0px;
+    cursor: pointer;
+}
+.one-box{
+    border-radius: 3px 0px 0px 3px;
+}
+.for-box{
+    border: 1px solid #E5E5E5;
+    border-radius: 0px 3px 3px 0px;
+}
+.left-input{
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 38px;
+    padding-left: 15px;
+}
+.right-input{
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 38px;
+    padding-left: 15px;
+}
+.right-boxes{
+    width: 65.06px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    padding-top: 7px;
+    border-right: 0px;
+}
+.input-right-div{
+    position: relative;
+}
+.currency-left-value{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    position: absolute;
+    bottom: 10px;
+    left: 17px;
+}
+.input-left-div{
+    position: relative;
+}
+.currency-right-value{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    position: absolute;
+    bottom: 10px;
+    left: 17px;
+}
