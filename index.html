@@ -10,10 +10,28 @@
 <body>
     <div>
           <header>
-                <div class="logo">
+                <div class="header-container">
+                    <div class="head-div1">
+                        <img src="./img/Logo.svg" alt="">
+                    </div>
+                    <div class="head-div2">
+                        <nav>
+                            <ul>
+                                <li>БАНК</li>
+                                <li>БИЗНЕС</li>
+                                <li>ИНВЕСТИЦИИ</li>
+                                <li>СТРАХОВАНИЕ</li>
+                                <li>МОБАЙЛ</li>
+                                <li>ПУТЕШЕСТВИЯ</li>
+                                <li>РАЗВЛЕЧЕНИЯ</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="head-div3">
+                        <div class="head-div3-text">ВОЙТИ</div>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
+                
           </header>
           <main>
                 <div>
@@ -28,8 +46,8 @@
                                 <div class="currency-box">EUR</div>
                                 <div class="currency-box">GBP</div>
                             </div>
-                            <div class="input-div">
-                                <input value="100" class="left-input" type="text">
+                            <div class="input-value input-div">
+                                <input value="100" class="left-input" type="text" pattern="\d+(\.\d{1,4})?">
                                 <p class="currency-value">1 RUB = 0.0135 USD</p>
                             </div>
                         </div>
@@ -42,8 +60,8 @@
                                 <div class="currency-box">EUR</div>
                                 <div class="currency-box">GBP</div>
                             </div>
-                            <div class="input-div">
-                                <input class="right-input" type="text">
+                            <div class="output-value input-div">
+                                <input  class="right-input" type="text">
                                 <p class="currency-value">1 USD = 73.8896 RUB</p>
                             </div>
                         </div>          
@@ -51,8 +69,6 @@
              </div>
           </main>
     </div>
-
-
 
 
     <script src="javascript.js"></script>
