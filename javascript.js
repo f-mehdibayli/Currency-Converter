@@ -29,7 +29,7 @@ function formatNum(num){
     }else if(parts[1].length <=4 ){
         return num
     }else{
-        return parseFloat(num.toFixed(4))
+        return parseFloat(num.toFixed(2))
     }
 }
 
